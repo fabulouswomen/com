@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us - Fabulous Women Group Lagos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Fabulous Women Group Lagos Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Fabulous Women</h1>
+                    <p>Fabulous Women, Women With Vibes</p>
+                </div>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="join.html">Join Us</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Hamburger Menu -->
+            <div class="hamburger-menu">
+                <div class="hamburger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="join.html">Join Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Join Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h2>Join Our Association</h2>
+            <p>Become part of our community of fabulous married women</p>
+        </div>
+    </section>
+
+    <!-- Membership Benefits -->
+    <section class="benefits">
+        <div class="container">
+            <h2>Why Join Us?</h2>
+            <div class="benefits-list">
+                <div class="benefit">
+                    <i class="fas fa-users"></i>
+                    <h3>Supportive Community</h3>
+                    <p>Connect with other married women who understand your journey and can offer support and advice.</p>
+                </div>
+                <div class="benefit">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h3>Charity Opportunities</h3>
+                    <p>Participate in meaningful charity work that makes a difference in our community.</p>
+                </div>
+                <div class="benefit">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Personal Growth</h3>
+                    <p>Access workshops, seminars, and resources for personal and professional development.</p>
+                </div>
+                <div class="benefit">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Regular Events</h3>
+                    <p>Enjoy monthly meetings, annual retreats, and special events designed for connection and fun.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Form -->
+    <section class="membership-form">
+        <div class="container">
+            <h2>Application Form</h2>
+            <p class="form-note">Note: Membership is exclusively for married women</p>
+            
+            <form id="joinForm">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="maritalStatus">Marital Status *</label>
+                    <select id="maritalStatus" name="maritalStatus" required>
+                        <option value="">Select Status</option>
+                        <option value="married">Married</option>
+                        <option value="divorced">Divorced</option>
+                        <option value="widowed">Widowed</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Best Way to Reach You *</label>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="contactMethod" value="whatsapp" required>
+                            WhatsApp
+                        </label>
+                        <label>
+                            <input type="radio" name="contactMethod" value="call">
+                            Phone Call
+                        </label>
+                        <label>
+                            <input type="radio" name="contactMethod" value="email">
+                            Email
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Why do you want to join us?</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Fabulous Women Group Lagos</h3>
+                    <p>Fabulous Women, Women With Vibes</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    
+                    <p>Phone: 07066312994</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="socials">
+                        <a href="https://web.facebook.com/groups/776587814757322"><i class="fab fa-facebook"></i></a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Fabulous Women Group Lagos. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/2347066312994" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Floating Call Button -->
+    <a href="tel:07066312994" class="call-float">
+        <i class="fas fa-phone"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
